@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="top-menu">
+            <div class="ctn-header">
+                <div class="top-menu-left">
+                    <div class="welcome">
+                        <a href="#">
+                            <i class="far fa-bookmark"></i>
+                            <p>
+                                Welcome to Franco - an e-Commerce PSD Template!
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="top-menu-right">
+                    <div class="shop-setting">
+                        <a href="#">
+                            <i class="fas fa-cog">
+                                <div class="shop-child">
+                                    <span>Shop Setting</span> 
+                                </div>
+                            </i>
+                            <span>Shop Setting</span> 
+                        </a>
+                    </div>
+                    <div class="member-login">
+                        <a href="#">
+                            <i class="fas fa-lock">
+                                <div class="member-child">
+                                    <span>Member Login</span>
+                                </div>
+                            </i>
+                            <span>Member Login</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu">
+            <div class="ctn-header">
+                <div class="logo">
+                    <div class="franco">
+                       <a href="">FRANCO</a>
+                    </div>
+                </div>
+                <div class="list-swap">
+                    <div class="list">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">WOMEN</a></li>
+                        <li><a href="#">MEN</a></li>
+                        <li ><a href="#">ABOUT US</a></li>
+                        <li ><a href="#">BLOG</a></li>
+                        <li ><a href="#">COLLECTIONS</a></li>
+                        <li ><a href="#">CONTACT</a></li>
+                        <li class="search">
+                            <a><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <div class="search-hide">
+                                <form class="search-box">
+                                    <input class="search-text" type="text" placeholder="Search...">
+                                    <a class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                </form>
+                            </div>
+                        </li>
+                        <li class="search-main">
+                            <form class="search-box">
+                                <input class="search-text" type="text" placeholder="Search...">
+                                <a class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </form>
+                        </li>
+                        
+                    </div>
+                </div>
+                <div class="others">
+                    <div class="wishlist icon">
+                        <a href="#"><i class="pe-7s-like"></i></a>
+                    </div>
+                    <div class="cart icon">
+                        <a href="#">
+                            <i class="pe-7s-cart"></i>
+                        </a>
+                        <div class="cart-add">
+                            <table>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Name</th>
+                                    <th>Total</th>
+                                    <th>Price</th>
+                                    <th>Action</th>
+                                </tr>
+                                <tr>
+                                    <td><img src="./assets/images/products/r1-c1.jpg" alt=""></td>
+                                    <td><a href="#">Suspendisse id volutpat</a></td>
+                                    <td>1</td>
+                                    <td>$84.00</td>
+                                    <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="./assets/images/products/r1-c2.jpg" alt=""></td>
+                                    <td><a href="#">Lorem ipsum dolor</a></td>
+                                    <td>2</td>
+                                    <td>$84.00</td>
+                                    <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="./assets/images/products/r1-c3.jpg" alt=""></td>
+                                    <td><a href="#">Proin sed nulla mi</a></td>
+                                    <td>1</td>
+                                    <td>$84.00</td>
+                                    <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                        
+                    <label for="nav-mobile-input" class="nav-bar icon">
+                            <i class="fas fa-bars"></i>
+                    </label>
+                    <input type="checkbox" class="nav_input" id="nav-mobile-input">
+                    <label for="nav-mobile-input" class="nav_overlay"></label>
+                    <div class="nav_mobile">
+                        <label for="nav-mobile-input" class="xmark">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+                        <form action="" class="search_box">
+                            <input class="search_text" type="text" placeholder="Search...">
+                            <a href="#" class="search_btn"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </form>
+                        </li>
+                        <ul class="nav_mobile-list">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">WOMEN</a></li>
+                            <li><a href="#">MEN</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="#">COLLECTIONS</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    <div class="ads">
+        <div class="container">
+            <div class="ads-left">
+                <div class="img">
+                    <img src="assets/images/ads1.jpg" alt="ads1" width="751" height="560">
+                </div>
+                <div class="detail">
+                    <h3>Two High-end Materials</h3>
+                    <a href="#">Shop Now</a>
+                </div>
+            </div>
+            <div class="ads-right">
+                <div class="ads-right-top">
+                    <div class="img">
+                        <img src="assets/images/ads2.jpg" alt="ads2" width="362" height="200">
+                    </div>
+                    <div class="detail">
+                        <h4>small thing</h4>
+                        <h3>make different</h3> 
+                    </div>
+                </div>
+                <div class="ads-right-bottom">
+                    <div class="img">
+                        <img src="assets/images/ads3.jpg" alt="ads3" width="360" height="330">
+                    </div>
+                    <div class="detail">
+                        <h4>folio</h4>
+                        <h3>backpack</h3>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="container">
+            <div class="title">
+                <div class="name">
+                    <h4>franco</h4>
+                </div>
+                <div class="list">
+                    <h3>Featured items</h3>
+                </div>
+                <hr  width="4.5%" size="1px" align="left" color="#8262b5" />
+            </div>
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3 m-6 c-6">
+                        <div class="product">
+                            <div class="img">
+                                <a a href="#">
+                                    <img src="assets/images/products/r1-c1.jpg" alt="" width="323">
+                                </a>
+                                <a a href="#">add to card</a>
+                            </div>
+                            <div class="infor">
+                                <a a href="#">Suspendisse id volutpat</a>
+                                <div class="star">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    <div class="old">$99.00</div>
+                                    <div class="new">$84.00</div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col l-3 m-6 c-6">
+                        <div class="product">
+                            <div class="img">
+                                <a a href="#">
+                                    <img src="assets/images/products/r1-c2.jpg" alt="" >
+                                </a>
+                                <a a href="#">ADD TO CART</a>
+                            </div>
+                            <div class="infor">
+                                <a a href="#">Lorem ipsum dolor</a>
+                                <div class="star">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    <div class="old">$99.00</div>
+                                    <div class="new">$84.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-6">
+                        <div class="product">
+                            <div class="img">
+                                <a a href="#">
+                                    <img src="assets/images/products/r1-c3.jpg" alt="" >
+                                </a>
+                                <a a href="#">ADD TO CART</a>
+                            </div>
+                            <div class="infor">
+                                <a a href="#">
+                                    Proin sed nulla mi
+                                </a>
+                                <div class="star">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    <div class="old"></div>
+                                    <div class="new">$84.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-6">
+                        <div class="product">
+                            <div class="img">
+                                <a a href="#">
+                                    <img src="assets/images/products/r1-c4.jpg" alt="" >
+                                </a>
+                                <a a href="#">ADD TO CART</a>
+                            </div>
+                            <div class="infor">
+                                <a a href="#">Aenean placerat</a>
+                                <div class="star">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    <div class="old">$99.00</div>
+                                    <div class="new">$84.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="row">
+                    <div class="col l-3 m-6 c-6">
+                        <div class="product">
+                            <div class="img">
+                                <a a href="#">
+                                    <img src="assets/images/products/r2-c1.jpg" alt="" >
+                                </a>
+                                <a a href="#">ADD TO CART</a>
+                            </div>
+                            <div class="infor">
+                                <a a href="#">Suspendisse id volutpat</a>
+                                <div class="star">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    <div class="old">$99.00</div>
+                                    <div class="new">$84.00</div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col l-3 m-6 c-6">
+                        <div class="product">
+                            <div class="img">
+                                <a a href="#">
+                                    <img src="assets/images/products/r2-c2.jpg" alt="" >
+                                </a>
+                                <a a href="#">ADD TO CART</a>
+                            </div>
+                            <div class="infor">
+                                <a a href="#">Lorem ipsum dolor</a>
+                                <div class="star">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    <div class="old">$99.00</div>
+                                    <div class="new">$84.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-6">
+                        <div class="product">
+                            <div class="img">
+                                <a a href="#">
+                                    <img src="assets/images/products/r2-c3.jpg" alt="" >
+                                </a>
+                                <a a href="#">ADD TO CART</a>
+                            </div>
+                            <div class="infor">
+                                <a a href="#">Proin sed nulla mi</a>
+                                <div class="star">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    <div class="old"></div>
+                                    <div class="new">$84.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-6">
+                        <div class="product">
+                            <div class="img">
+                                <a a href="#">
+                                    <img src="assets/images/products/r2-c4.jpg" alt="" >
+                                </a>
+                                <a a href="#">ADD TO CART</a>
+                            </div>
+                            <div class="infor">
+                                <a a href="#">Aenean placerat</a>
+                                <div class="star">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    <div class="old">$99.00</div>
+                                    <div class="new">$84.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="blog" style="background-image: url(./assets/images/blog/bg-blog.jpg);">
+        <div class="container">
+            <div class="title">
+                <div class="name">
+                    <h4>latest</h4>
+                </div>
+                <div class="list">
+                    <h3>news & Events</h3>
+                </div>
+                <hr  width="4%" size="1px" align="center" color="#8262b5" />
+            </div>
+            <div class="grid wide">
+                <div class="row autoplay">
+                    <div class="col l-4 m-12 c-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="assets/images/blog/post/post-1.jpg" alt="">
+                            </a>
+                            <div class="background">
+                                <div class="date">
+                                    <a href="#">
+                                        <div class="month">Jan</div>
+                                        <div class="day">23</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ctn">
+                                <div class="post-title">
+                                    <a href="#">In commodo dolor vitae</a>
+                                </div>
+                                <div class="post-content">
+                                    <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscripit, orci mauris. </p>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="cmt">
+                                    <a href="#">
+                                        <i class="far fa-comment"></i>
+                                        <p>12</p>
+                                    </a>
+                                </div>
+                                <div class="heart">
+                                    <a href="#">
+                                        <i class="far fa-heart"></i>
+                                        <p>6</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="assets/images/blog/post/post-2.jpg" alt="">
+                            </a>
+                            <div class="background">
+                                <div class="date">
+                                    <a href="#">
+                                        <div class="month">Jan</div>
+                                        <div class="day">23</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ctn">
+                                <div class="post-title">
+                                    <a href="#">Vivamus non dignissim elit</a>
+                                </div>
+                                <div class="post-content">
+                                    <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscripit, orci mauris.</p>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="cmt">
+                                    <a href="#">
+                                        <i class="far fa-comment"></i>
+                                        <p>12</p>
+                                    </a>
+                                </div>
+                                <div class="heart">
+                                    <a href="#">
+                                        <i class="far fa-heart"></i>
+                                        <p>6</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="assets/images/blog/post/post-3.jpg" alt="" >
+                            </a>
+                            <div class="background">
+                                <div class="date">
+                                    <a href="#">
+                                        <div class="month">Jan</div>
+                                        <div class="day">23</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ctn">
+                                <div class="post-title">
+                                    <a href="#">Ut lacinia erat ut diam volutpat</a>
+                                </div>
+                                <div class="post-content">
+                                    <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscripit, orci mauris.</p>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="cmt">
+                                    <a href="#">
+                                        <i class="far fa-comment"></i>
+                                        <p>12</p>
+                                    </a>
+                                </div>
+                                <div class="heart">
+                                    <a href="#">
+                                        <i class="far fa-heart"></i>
+                                        <p>6</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="assets/images/blog/post/post-1.jpg" alt="">
+                            </a>
+                            <div class="background">
+                                <div class="date">
+                                    <a href="#">
+                                        <div class="month">Jan</div>
+                                        <div class="day">23</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ctn">
+                                <div class="post-title">
+                                    <a href="#">In commodo dolor vitae</a>
+                                </div>
+                                <div class="post-content">
+                                    <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscripit, orci mauris. </p>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="cmt">
+                                    <a href="#">
+                                        <i class="far fa-comment"></i>
+                                        <p>12</p>
+                                    </a>
+                                </div>
+                                <div class="heart">
+                                    <a href="#">
+                                        <i class="far fa-heart"></i>
+                                        <p>6</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="assets/images/blog/post/post-2.jpg" alt="" >
+                            </a>
+                            <div class="background">
+                                <div class="date">
+                                    <a href="#">
+                                        <div class="month">Jan</div>
+                                        <div class="day">23</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ctn">
+                                <div class="post-title">
+                                    <a href="#">Vivamus non dignissim elit</a>
+                                </div>
+                                <div class="post-content">
+                                    <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscripit, orci mauris.</p>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="cmt">
+                                    <a href="#">
+                                        <i class="far fa-comment"></i>
+                                        <p>12</p>
+                                    </a>
+                                </div>
+                                <div class="heart">
+                                    <a href="#">
+                                        <i class="far fa-heart"></i>
+                                        <p>6</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="assets/images/blog/post/post-3.jpg" alt="" >
+                            </a>
+                            <div class="background">
+                                <div class="date">
+                                    <a href="#">
+                                        <div class="month">Jan</div>
+                                        <div class="day">23</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ctn">
+                                <div class="post-title">
+                                    <a href="#">Ut lacinia erat ut diam volutpat</a>
+                                </div>
+                                <div class="post-content">
+                                    <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscripit, orci mauris.</p>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="cmt">
+                                    <a href="#">
+                                        <i class="far fa-comment"></i>
+                                        <p>12</p>
+                                    </a>
+                                </div>
+                                <div class="heart">
+                                    <a href="#">
+                                        <i class="far fa-heart"></i>
+                                        <p>6</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="assets/images/blog/post/post-1.jpg" alt="">
+                            </a>
+                            <div class="background">
+                                <div class="date">
+                                    <a href="#">
+                                        <div class="month">Jan</div>
+                                        <div class="day">23</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ctn">
+                                <div class="post-title">
+                                    <a href="#">In commodo dolor vitae</a>
+                                </div>
+                                <div class="post-content">
+                                    <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscripit, orci mauris. </p>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="cmt">
+                                    <a href="#">
+                                        <i class="far fa-comment"></i>
+                                        <p>12</p>
+                                    </a>
+                                </div>
+                                <div class="heart">
+                                    <a href="#">
+                                        <i class="far fa-heart"></i>
+                                        <p>6</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="assets/images/blog/post/post-2.jpg" alt="" >
+                            </a>
+                            <div class="background">
+                                <div class="date">
+                                    <a href="#">
+                                        <div class="month">Jan</div>
+                                        <div class="day">23</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ctn">
+                                <div class="post-title">
+                                    <a href="#">Vivamus non dignissim elit</a>
+                                </div>
+                                <div class="post-content">
+                                    <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscripit, orci mauris.</p>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="cmt">
+                                    <a href="#">
+                                        <i class="far fa-comment"></i>
+                                        <p>12</p>
+                                    </a>
+                                </div>
+                                <div class="heart">
+                                    <a href="#">
+                                        <i class="far fa-heart"></i>
+                                        <p>6</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="card">
+                            <a href="#">
+                                <img src="assets/images/blog/post/post-3.jpg" alt="" >
+                            </a>
+                            <div class="background">
+                                <div class="date">
+                                    <a href="#">
+                                        <div class="month">Jan</div>
+                                        <div class="day">23</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ctn">
+                                <div class="post-title">
+                                    <a href="#">Ut lacinia erat ut diam volutpat</a>
+                                </div>
+                                <div class="post-content">
+                                    <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscripit, orci mauris.</p>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="cmt">
+                                    <a href="#">
+                                        <i class="far fa-comment"></i>
+                                        <p>12</p>
+                                    </a>
+                                </div>
+                                <div class="heart">
+                                    <a href="#">
+                                        <i class="far fa-heart"></i>
+                                        <p>6</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                  </div>
+            </div>    
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="about-us">
+                <div class="information">
+                    <div class="title">
+                        <h3>About Franco</h3>
+                    </div>
+                <div class="content">
+                    <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscripit, orci mauris vulputate mi, eu interdum nunc diam at ipsum.</p>
+                </div>
+                <div class="link">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                </div>
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="information">
+                    <div class="title">
+                        <h3>Navigation</h3>
+                    </div>
+                <div class="content">
+                    <table>
+                        <tr>
+                            <td><a href="#">Home</a></td>
+                            <td><a href="#">FAQs</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">About Us</a></td>
+                            <td><a href="#">Featured Brands</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Our Blog</a></td>
+                            <td><a href="#">Gift Vouchers</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Women</a></td>
+                            <td><a href="#">Affiliates</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Men</a></td>
+                            <td><a href="#">Specicals Gift</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Contact Us</a></td>
+                            <td><a href="#">Term & Conditions</a></td>
+                        </tr>
+                    </table>
+                </div>
+                </div>
+            </div>
+            <div class="address">
+                <div class="information">
+                    <div class="title">
+                        <h3>Shop Location</h3>
+                    </div>
+                    <div class="content">
+                        <div class="addr">
+                            <a href="https://www.google.com/maps/place/500+Hennessy+Rd,+Causeway+Bay,+H%E1%BB%93ng+K%C3%B4ng/@22.2798275,114.1816085,17z/data=!3m1!4b1!4m5!3m4!1s0x34040056c6c23a33:0x46f98d34fca46448!8m2!3d22.2798226!4d114.1837972" target="_blank">
+                                <i class="far fa-map"></i>
+                                <span>500 Hennessy Road Causeway Bay, Hong Kong</span>
+                            </a>
+                        </div>
+                        <div class="phone-number">
+                            <a href="tel: +1 23456789">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>+1 23456789</span>
+                            </a>
+                        </div>
+                        <div class="email">
+                            <a href="mailto: contact@yourdomain.com">
+                                <i class="far fa-envelope"></i>
+                                <span>contact@yourdomain.com</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border">
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="cpr-left">
+                    <a href="#">
+                        <i class="far fa-copyright"></i>
+                        Copyright 2015 & Made with
+                        <i class="fas fa-heart"></i>
+                        by
+                        <p>ArrowHitech.</p>
+                    </a>
+                </div>
+                <div class="cpr-right">
+                    <a href="#"><i class="fab fa-cc-visa"></i></a>
+                    <a href="#"><i class="fab fa-cc-paypal"></i></a>
+                    <a href="#"><i class="fab fa-cc-discover"></i></a>
+                    <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+                    <a href="#"><i class="fab fa-cc-amex"></i></a>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
