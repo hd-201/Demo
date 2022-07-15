@@ -640,7 +640,7 @@ img {
 .footer .title {
     color: white;
     padding: 40px 0px 28px;
-    border-bottom: 1px solid #676767;
+    border-bottom: 1px solid #393939;
 }
 .footer .title h3 {
     font-size: 16px;
@@ -709,7 +709,7 @@ img {
     padding-top: 2px;
 }
 .border{
-    border-top: 1px solid #676767;
+    border-top: 1px solid #393939;
 }
 .footer .copyright {
     display: flex;
