@@ -421,7 +421,7 @@ img {
 
 /* ====================== PRODUCT ====================== */
 .products {
-    margin: 72px 0px 76px;
+    margin: 71px 0px 77px;
     font-family: 'Montserrat', sans-serif;
 }
 .title .name {
@@ -640,7 +640,7 @@ img {
 }
 .footer .title {
     color: white;
-    padding: 40px 0px 28px;
+    padding: 38px 0px 27px;
     border-bottom: 1px solid #676767;
 }
 .footer .title h3 {
