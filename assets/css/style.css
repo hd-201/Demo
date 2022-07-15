@@ -421,7 +421,7 @@ img {
 
 /* ====================== PRODUCT ====================== */
 .products {
-    margin: 71px 0px 77px;
+    margin: 71px 0px 75px;
     font-family: 'Montserrat', sans-serif;
 }
 .title .name {
@@ -640,7 +640,7 @@ img {
 }
 .footer .title {
     color: white;
-    padding: 38px 0px 28px;
+    padding: 40px 0px 28px;
     border-bottom: 1px solid #676767;
 }
 .footer .title h3 {
@@ -650,7 +650,7 @@ img {
     letter-spacing: 0.6px;
 }
 .footer .content {
-    padding: 23px 0px;
+    padding: 22px 0px;
     letter-spacing: 0.1px;
 }
 .footer p,
@@ -714,7 +714,7 @@ img {
 }
 .footer .copyright {
     display: flex;
-    padding: 18px 0 30px;
+    padding: 20px 0 30px;
 }
 .copyright {
     width: 100%;
