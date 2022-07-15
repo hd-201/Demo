@@ -616,14 +616,12 @@ img {
     padding: 20px 0px;
     top: 0;
 }
-.container .content a:hover {
+.footer a:hover{
     color: white;
-    text-decoration-line: underline;
 }
-.about-us .link a:hover,
-.cpr-right a:hover {
-    color: white;
-} 
+.navigation table a:hover {
+    text-decoration: underline;
+}
 .about-us, .navigation, .address {
     width: 100%;
 }
