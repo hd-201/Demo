@@ -6,8 +6,8 @@ PC: 1024, 1280, 1366, 1440, 1600, 1920 */
 
 /* Tablet */
 @media (max-width: 1365px) {
-    .list-swap li:nth-child(9) {
-        margin-right: 0;
+    .ctn-header .list-swap {
+        margin-right: -15px;
     }
 }
 @media (max-width: 1279px) {

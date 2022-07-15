@@ -34,18 +34,18 @@ button {
 }
 .top-menu {
     font-family: 'Open Sans', sans-serif;
-    height: 46px;
+    height: 45px;
     background-color: #222222;
     font-size: 14px;
 }
 .top-menu .ctn-header {
     display: flex;
-    line-height: 46px;
+    line-height: 43px;
 }
 .ctn-header .top-menu-left {
     width: 50%;
     justify-content: left;
-    margin: 12px 0;
+    margin: 13px 0;
 }
 .top-menu-left a {
     display: flex;
@@ -63,8 +63,15 @@ button {
     color: #525252;
 }
 .top-menu .ctn-header i {
-    padding-right: 5px;
-    font-size: 14px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    vertical-align: 1px;
+}
+.welcome i {
+    padding-right: 7px;
+}
+.top-menu-right i {
+    padding-right: 2px;
 }
 .top-menu-right a {
     position: relative;
@@ -112,6 +119,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 37px;
 }
 .ctn-header .list-swap .list {
     display: flex;
@@ -119,11 +127,12 @@ button {
     font-size: 14px;
 }
 .list-swap li:nth-child(4) {
-    width: 80px;
+    min-width: 75px;
 }
 .list-swap li {
     margin-right: 55px;
     padding: 20px 0;
+    float: left;
 }
 .list-swap li:focus>a {
     color: #8262b5;
@@ -134,11 +143,12 @@ button {
 .ctn-header .others {
     display: flex;
     justify-content: right;
-    font-size: 28px;
+    font-size: 30px;
 }
 .ctn-header .others .icon {
-    margin-left: 30px;
-    padding: 20px 0
+    margin-left: 26px;
+    padding: 20px 0;
+    margin-top: 7px;
 }
 .ctn-header .others .icon:hover>a{
     color: #8262b5;
@@ -352,8 +362,8 @@ img {
     position: absolute;
 }
 .ads-left .detail {
-    right: 12%;
-    bottom: 27%;
+    right: 12.5%;
+    bottom: 27.2%;
     text-align: right;
 }
 .ads-left .detail h3 {
@@ -367,7 +377,7 @@ img {
     font-family: 'Montserrat', sans-serif;
 }
 .ads-right .detail h4 {
-    letter-spacing: 3px;
+    letter-spacing: 2.6px;
     font-size: 17px;
     color: #616161;
     font-weight: 400;
@@ -376,10 +386,11 @@ img {
 .ads-right .detail h3 {
     font-size: 20px;
     font-weight: 700;
+    padding-top: 1px;
 }
 .ads-right-top .detail {
     left: 15.6%;
-    bottom: 38.2%;
+    bottom: 37.5%;
 }
 .ads-right-bottom .detail {
     left: 11.11%;
@@ -387,6 +398,7 @@ img {
 }
 .ads-right-bottom .detail a {
     margin-top: 15px;
+    margin-left: 2px;
     float: left;
 }
 .ads a {
@@ -402,16 +414,26 @@ img {
 .ads a:hover {
     background-color: #4e288a;  
 }
-
+.ads-right-bottom a {
+    padding-left: 21px;
+    min-width: 108px;
+}
 
 /* ====================== PRODUCT ====================== */
 .products {
-    margin: 71px 0px;
+    margin: 72px 0px 76px;
     font-family: 'Montserrat', sans-serif;
+}
+.title .name {
+    padding-top: 1px;
+    margin-left: -1px;
+}
+.title .list {
+    padding-top: 11px;
+    margin-left: -2px;
 }
 .title .name,
 .title .list {
-    padding: 4px 0px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -419,17 +441,17 @@ img {
 .title .name h4 {
     color: #8262b5;
     font-size: 12px;
-    letter-spacing: 7px;
+    letter-spacing: 6px;
 }
 .title .list h3 {
     font-size: 24px;
-    letter-spacing: 5px;
+    letter-spacing: 2.3px;
 }
 .title hr {
-    margin: 30px 0px 50px 0px;
+    margin: 23px 0px 50px 0px;
 }
 .products .row {
-    margin-bottom: 45px;
+    margin-bottom: 46px;
 }
 .row .product .img{
     position: relative;
@@ -441,12 +463,12 @@ img {
 .product .img a:last-child {
     position: absolute;
     text-transform: uppercase;
-    left: 2.5%;
+    left: 2%;
     bottom: 3%;
     font-weight: 400;
-    padding: 12px 15px;
+    padding: 12px 18px;
     background-color: white;
-    width: 118px;
+    min-width: 118px;
     height: 40px;
     font-size: 12px;
 }
@@ -455,17 +477,18 @@ img {
     color: #8262b5;
 }
 .product .infor {
-    margin-top: 11px;
+    margin-top: 10px;
 }
 .product .infor a {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    letter-spacing: -0.3px;
 }
 .product .star {
     margin-top: 10px;
-    font-size: 13px;
-    letter-spacing: -2px;
+    font-size: 12px;
+    letter-spacing: -1.2px;
     color: #d7d7d7;
 }
 .product .infor .star i:not(:last-child) {
@@ -500,7 +523,7 @@ img {
 
 /* ================== BLOG ================= */
 .blog {
-    padding-top: 72px;
+    padding-top: 68px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -510,11 +533,15 @@ img {
 .blog .title {
     text-align: center;
 }
+.blog .title{
+    margin-top: 8.5px;
+    margin-left: 7px;
+}
 .blog .title .list h4 {
     font-size: 12px;
 }
 .blog .title hr {
-    margin: 20px auto 50px;
+    margin: 23px auto 50px;
 }
 .grid .card {
     background-color: white;
@@ -523,7 +550,7 @@ img {
 }
 .card .background {
     position: absolute;
-    top: 5.5%;
+    top: 6%;
     left: 5.5%;
     background-color: #a1d1dd;
     padding: 5px;
@@ -544,8 +571,9 @@ img {
 }
 .card .post-title {
     font-weight: 500;
-    padding: 4px 0 15px;
+    padding: 3px 0 15px;
     font-size: 16px;
+    letter-spacing: -0.2px;
 }
 .card .post-content {
     font-family: 'Open Sans', sans-serif;
@@ -570,8 +598,11 @@ img {
     font-size: 14px;
     display: flex;
     color: #c0c0c0;
-    padding-right: 25px;
+    padding-right: 26px;
     letter-spacing: 4px;
+}
+.info i {
+    margin-top: 2px;
 }
 
 
@@ -609,17 +640,18 @@ img {
 }
 .footer .title {
     color: white;
-    padding: 40px 0px 30px;
+    padding: 40px 0px 28px;
     border-bottom: 1px solid #676767;
 }
 .footer .title h3 {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 0.6px;
 }
 .footer .content {
-    padding: 20px 0px;
+    padding: 23px 0px;
+    letter-spacing: 0.1px;
 }
 .footer p,
 .footer table,
@@ -631,21 +663,25 @@ img {
 }
 .about-us .link {
     width: 200px;
-    margin: 20px 0px 0px;
+    margin-top: 18px;
 }
 .about-us .link a {
-    padding-right: 25px;
-    font-size: 17px;
+    padding-right: 29px;
+    font-size: 15px;
 }
 .navigation table {
-    margin-top: -3px;
     width: 100%;
+    margin-left: -3px;
 }
-.navigation table tr:not(:first-child) td {
-    padding: 5px 15px 5px 0px;
+.navigation table tr td {
+    padding-top: 9px;
+}
+.navigation table tr:first-child td {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .navigation table tr td:first-child {
-    width: 53%;
+    width: 54.5%;
 }
 .address .information {
     width: 73%;
@@ -661,15 +697,24 @@ img {
 .address .content .addr a {
     display: flex;
 }
-.address .content a i {
-    margin-right: 10px;
+.content a i {
+    margin-right: 11px;
+    font-size: 16px;
+    padding-left: 1px;
+}
+.phone-number a i {
+    font-size: 13px;
+    margin-right: 15px;
+}
+.address .content .phone-number {
+    padding-top: 2px;
 }
 .border{
     border-top: 1px solid #676767;
 }
 .footer .copyright {
     display: flex;
-    padding: 20px 0 30px;
+    padding: 18px 0 30px;
 }
 .copyright {
     width: 100%;
@@ -681,30 +726,35 @@ img {
     text-align: right;
     width: 30%;
 }
-.cpr-left, .cpr-right {
+.cpr-left {
     margin: auto 0px;
+}
+.cpr-right { 
+    margin-top: -3px;
 }
 .cpr-left a {
     display: flex;
 }
 .cpr-left a i {
-    margin: 2px 5px 0 0;
-    font-size: 14px;
+    margin: 4px 6px 0 0;
+    font-size: 11px;
 }
 .cpr-left a i:nth-child(2) {
+    font-size: 14px;
     margin-left: 5px;
     color: #ff4628;
 }
 .cpr-left p {
-    margin-left: 5px;
+    margin-left: 2px;
     color: white;
 }
 .cpr-right a {
+    letter-spacing: 1px;
     font-size: 23px;
 }
 .cpr-right i:not(:last-child) {
     margin-right: 5px;
 }
 .content .email {
-    width: 210px;
+    min-width: 210px;
 } 

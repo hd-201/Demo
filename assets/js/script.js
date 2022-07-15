@@ -99,14 +99,14 @@ $('body').on('click', (e) => {
 
  
 //=========== SCOLLING ===========
-$(document).ready(function() {
-  $(window).scroll(function(event) {
-    var x = $('html,body').scrollTop();
-    if(x>=50 && width>=1024){
-      $('.main-menu').addClass("scoll");
-    }
-    else {
-      $('.main-menu').removeClass("scoll");
-    }
-  })
-})
+// $(document).ready(function() {
+//   $(window).scroll(function(event) {
+//     var x = $('html,body').scrollTop();
+//     if(x>=50 && width>=1024){
+//       $('.main-menu').addClass("scoll");
+//     }
+//     else {
+//       $('.main-menu').removeClass("scoll");
+//     }
+//   })
+// })
